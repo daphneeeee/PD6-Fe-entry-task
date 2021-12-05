@@ -1,13 +1,132 @@
 body {
+  text-decoration: none;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+header {
+  color: white;
+  font-size: 80px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 5%;
+  height: 120px;
+  background: url('./home-bg.jpg') center;
+  background-size: cover;
+}
+.post-list {
+  width: 600px;
+  margin-left: 436px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  justify-content: space-between;
+  border-bottom: gray solid 1px;
+}
+button {
+  color: white;
+  font-size: 18px;
+  font-weight: bolder;
+  padding: 10px 20px;
+  border-color: transparent;
+}
+.home-btn {
+  font-size: 18px;
+  font-weight: bolder;
+  padding: 10px 20px;
+  border-color: transparent;
+  position: absolute;
+  top: 0px; left: 120px;
+  background-color: transparent;
+}
+.add-btn {
+  background-color: darkcyan;
+  margin-left: 430px;
+  margin-bottom: 2%;
+}
+.delete-btn {
+  background-color: darkred;
+}
+.edit-btn {
+  margin-left: 436px;
+  width: 100px;
+  margin-right: 3px;
+  background-color: gray;
+}
+.send-btn {
+  background-color: darkcyan;
+}
+.comment p {
+  color: #92989c;
+  font-size: 20px;
+  width: 600px;
+  margin-left: 436px;
+  font-weight: 400;
+}
+.comment input {
+  font-size: 20px;
+  width: 600px;
+  margin-left: 436px;
+  font-weight: 400;
+  border: transparent;
+  border-bottom: lightgray solid 1px;
+  line-height: 1.5;
+}
+.msg {
+  width: 580px;
+  border: lightgray solid 1pt;
+  padding: 8px 10px;
+  height: fit-content;
+  margin: 2% 0;
+  font-size: 20px;
+  margin-left: 436px;
+  font-weight: 400;
+}
+.msg #name {
+  margin-top: 0%;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+.msg #text {
+  margin-bottom: 0%;
+  font-size: 18px;
+  color: black;
+}
+.post-detail {
+  font-size: 20px;
+  width: 580px;
+  margin-left: 436px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.addPost p, .comment p, .msg {
+  color: #92989c;
+  font-size: 20px;
+  width: 600px;
+  margin-left: 436px;
+  font-weight: 400;
+}
+.addPost input, .addPost textarea {
+  font-size: 20px;
+  width: 600px;
+  margin-left: 436px;
+  font-weight: 400;
+  border: transparent;
+  border-bottom: lightgray solid 1px;
+  line-height: 1.5;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.home-btn a{
+  color: white;
 }

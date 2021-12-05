@@ -1,0 +1,36 @@
+{
+  "posts": [
+    {
+      "title": "Hello",
+      "content": "How are you?",
+      "date": "2021/06/20",
+      "id": "17622b2c-8336-45c9-80d8-34d5aa7bc777"
+    },
+    {
+      "title": "Good Night",
+      "content": "88",
+      "date": "2021/07/01",
+      "id": "e843fdbd-a57c-45a4-83de-2e23557c55f3"
+    },
+    {
+      "title": "Good",
+      "content": "Have a nice day!",
+      "date": "2021/07/08",
+      "id": "5e6a2ada-19f0-422d-a82a-c0cee85f8894"
+    }
+  ],
+  "messages": [
+    {
+      "data": [],
+      "id": "17622b2c-8336-45c9-80d8-34d5aa7bc777"
+    },
+    {
+      "data": [],
+      "id": "e843fdbd-a57c-45a4-83de-2e23557c55f3"
+    },
+    {
+      "id": "5e6a2ada-19f0-422d-a82a-c0cee85f8894",
+      "data": []
+    }
+  ]
+}
